@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "postcss style.css -o dist/output.css",
+    "watch": "postcss style.css -o dist/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.5"
+  }
+}
